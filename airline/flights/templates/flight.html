@@ -20,7 +20,7 @@
     <h2>Adicionar Passageiro</h2>
     <form action="{% url 'book' flight,id %}" method="post">
         {% csrf_token %}
-        <select name="passenger"
+        <select name="passenger"></select>
     </form>
 
     <a href="{% url 'index' %}">Voltar à lista de Voos</a>
